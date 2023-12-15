@@ -1,3 +1,24 @@
 body{
-    background-color: palevioletred;
+    background-color: #ff6666; 
+    margin: 0;
+    font-family: Arial;
+    border : border-box;
+}
+.image
+{
+    height: 400px; width: 400px; padding: 10px ; border: black; border-style: solid; margin-top: 60px; margin-left: 60px; border-width: 5px;
+}
+.navbar
+{
+    height:60px; background-color: #00091a; color: white;
+}
+.nav-logo
+{
+    height: 50px;  width: 100px;
+}
+.logo
+{
+    background-image: url("Soniya\ Taneja-logos_white.png");
+    
+    height: 50px; width: 100%; background-size: cover; 
 }
