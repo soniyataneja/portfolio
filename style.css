@@ -4,22 +4,30 @@ body{
     margin: 0;
     font-family: Arial;
     border : border-box;
-}
-.image
-{
-    height: 400px; width: 400px; padding: 10px ; border: black; border-style: solid; margin-top: 60px; margin-left: 60px; border-width: 5px;
-}
-.navbar
-{
-    height:60px; background-color: #00091a; color: white;
-}
-.nav-logo
-{
-    height: 50px;  width: 100px;
-}
-.logo
-{
-    background-image: url("logo.png");
+    display: flex;
+    align-items: center;
     
-    height: 50px; width: 100%; background-size: cover; 
+}
+#logo
+{
+height: 550px; width: 550px; border-width: 8px; border-style: double; margin-top: 70px; margin-left: 60px;
+margin-right: 80px;
+z-index: -1;
+}
+.name
+{
+    position: relative;
+    z-index:-1;
+    margin-right: 100px;
+}
+#intro
+{
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 100px;
+}
+#button
+{
+    margin-top: 150px;
+     
 }
